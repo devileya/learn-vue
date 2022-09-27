@@ -4,18 +4,9 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
-    <div id="app">
+    <div id="app" v-cloak>
       <p>Hello Guys!!!</p>
-      <p>{{ firstName }} {{ lastName }}</p>
-    </div>
-
-    <div id="app">
-      <p>Hello Guys!!!</p>
-      <p>{{ firstName }} {{ lastName }}</p>
-    </div>
-
-    <div>
-      <h3>Ini Bukan Vue</h3>
+      <p>{{ fullName() }}</p>
     </div>
   </body>
   <footer>

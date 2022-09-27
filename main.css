@@ -2,3 +2,7 @@ p {
     color: brown;
     size: 24px;
 }
+
+[v-cloak] {
+    display: none;
+}
