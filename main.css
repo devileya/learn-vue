@@ -6,3 +6,8 @@ p {
 [v-cloak] {
     display: none;
 }
+
+input[type="text"] {
+    margin: 10px 0;
+    display: block;
+}
