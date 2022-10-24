@@ -95,3 +95,11 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+h1 {
+  color: red;
+}
+
+h1:hover {
+  color: darken($color: red, $amount: 30%)
+}
